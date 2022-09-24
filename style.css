@@ -1,0 +1,23 @@
+body {
+  background-color: #e2e2e2;
+}
+.main-slider__container {
+  width: 1900px;
+  margin: auto;
+  border: 1px solid black;
+  position: relative;
+}
+.swiper {
+  width: 605px;
+  height: 625px;
+}
+
+.main-slider__container {
+  max-width: 1900px;
+  margin: auto;
+  border: 1px solid black;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  display: none;
+}
